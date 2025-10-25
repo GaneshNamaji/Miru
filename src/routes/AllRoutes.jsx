@@ -5,6 +5,7 @@ import Video from '../pages/Video'
 import Search from '../pages/Search'
 import Add from '../pages/Admin/Admincomponents/Add'
 import AdminHome from '../pages/Admin/AdminHome'
+import Newtest from '../pages/Newtest'
 
 const AllRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const AllRoutes = () => {
       <Route path="/search" element={<Search/>} />
       <Route path="/admin/add" element={<Add/>} />
        <Route path="/admin" element={<AdminHome/>} />
+       <Route path = "/newtest" element={<Newtest/>}/>
       <Route path="*" element={<div>404 Not Found</div>} /> 
      
       </Routes>
